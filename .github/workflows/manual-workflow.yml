@@ -1,0 +1,13 @@
+name: Manual Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  uname:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Operating System
+        run: uname -v
+
