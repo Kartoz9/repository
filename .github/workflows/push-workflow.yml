@@ -1,0 +1,14 @@
+name: Push Workflow
+
+on:
+  push:
+    branches:
+      - main  # або інша гілка, на яку ви хочете, щоб цей процес реагував
+
+jobs:
+  date:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print the Current Date
+        run: date
