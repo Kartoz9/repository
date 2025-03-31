@@ -3,7 +3,7 @@ name: Push Workflow
 on:
   push:
     branches:
-      - main  # або інша гілка, на яку ви хочете, щоб цей процес реагував
+      - main  
 
 jobs:
   date:
